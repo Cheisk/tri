@@ -1,0 +1,30 @@
+FUNCTION tri_insert(Tab[1:n]) : INTEGER
+VAR
+    i,j,elem = INTEGER 
+
+BEGIN
+    FOR i FROM 2 TO n-1 STEP 1  DO
+        WHILE (j>0 && tab[j-1]>elem) DO
+            tab[j]=tab[j-1]
+        END_WHILE
+    END_FOR
+    RETURN INTEGER ;
+END
+
+
+
+
+
+
+
+ALGORITHM tri
+VAR
+    i,n : INTEGER
+    tab :ARRAY_OF INTEGER[n];
+BEGIN
+    tab := (1,2,3,4,5)
+
+    FOR i FROM 2 TO n-1 STEP 1  DO
+        insert tab[i] in tab[1:i-1]
+    END_FOR
+END

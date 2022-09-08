@@ -1,0 +1,10 @@
+Big O : nous aide à connaître l'efficacité et la complexité d'un algorithme sans avoir besoin de le tester avec des entrées de test sur une machine réelle
+        il s'agit d'une valeur d'approximation qui peut nous donner une idée des performances de notre algorithme
+Big O décrit spécifiquement le scénario le plus défavorable et peut être utilisé pour décrire le temps d'exécution requis ou l'espace utilisé (par exemple en mémoire ou sur disque) par un algorithme
+il est utilisé pour déterminer de quel facteur le nombre d'opérations augmentera à mesure que la quantité d'intrants augmente
+il est utilisé pour comparer deux algorithms qui sont desiné a la meme fonctions
+N'oubliez pas que tous les calculs du Big O concernent le pire scénario
+
+Tri simple: Simple Sort, également connu sous le nom de Bubble Sort,est l'algorithme de tri le plus simple qui fonctionne en échangeant à plusieurs reprises les éléments adjacents s'ils sont dans le mauvais ordre
+L'échange passe à plusieurs reprises dans la liste jusqu'à ce qu'elle soit triée
+ 
